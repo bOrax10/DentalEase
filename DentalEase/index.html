@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+
+    <title>DentalEase</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-image">
+            <img class="image" src="images/logo.svg" alt="af">
+        </div>
+        <div class="logo-div">
+            <div class="logo">DentalEase</div>
+        </div>
+        <div class="inside-nav">
+            <div class="inside-nav-div">About</div>
+            <div class="inside-nav-div">Facilities</div>
+            <div class="inside-nav-div">Consult</div>
+            <div class="inside-nav-div">Clinics</div>
+            <div class="inside-nav-div">Contact Us</div>
+        </div>
+    </nav>
+
+    <div class="patient">
+        <div class="greeting">
+            <strong>Good Morning, Rohit Thakural</strong>
+        </div>
+        <div class="patient-image">
+            <img src="images/image 4.svg" alt="">
+        </div>
+    </div>
+
+    <div class="container">
+        <h2>Book New Consultation</h2>
+        <div class="input-container">
+            <input type="text" id="name" placeholder="Name">
+            <input type="tel" id="phone" placeholder="Phone Number">
+        </div>
+        <div class="textarea-container">
+            <textarea id="problem" placeholder="Describe your problem"></textarea>
+        </div>
+    </div>
+
+    <div class="upload-and-submit">
+        <button class="upload">Upload Image</button>
+        <button class="submit">Submit</button>
+    </div>
+
+    <div class="table">
+        <table>
+            <thead>
+                <tr>
+                    <th class="hidden-header">Image</th>
+                    <th>Doctor Name</th>
+                    <th>Last Checkup On</th>
+                    <th class="hidden-header">Reconsult</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Add table rows (data) here -->
+                <tr>
+                    <td><img class="doctor-image" src="images/doctor1.svg" alt="Doctor 1"></td>
+                    <td>Rishi Bhugalya</td>
+                    <td>2023-10-10</td>
+                    <td><button class="reconsult-button">Reconsult</button></td>
+                </tr>
+                <tr>
+                    <td><img class="doctor-image" src="images/doctor2.svg" alt="Doctor 2"></td>
+                    <td>Kushagra Kaur</td>
+                    <td>2023-09-25</td>
+                    <td><button class="reconsult-button">Reconsult</button></td>
+                </tr>
+                <tr>
+                    <td><img class="doctor-image" src="images/doctor3.svg" alt="Doctor 3"></td>
+                    <td>Nitesh Sharma</td>
+                    <td>2023-09-25</td>
+                    <td><button class="reconsult-button">Reconsult</button></td>
+                </tr>
+                <tr>
+                    <td><img class="doctor-image" src="images/doctor4.svg" alt="Doctor 4"></td>
+                    <td>Rajesh Sai</td>
+                    <td>2023-09-25</td>
+                    <td><button class="reconsult-button">Reconsult</button></td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </div>
+
+</body>
+
+</html>

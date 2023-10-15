@@ -1,0 +1,191 @@
+.body {
+    background-color: #F2F2F2;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #000;
+    padding: 1.04vw;
+}
+
+.navbar-image img {
+    margin-left: 2.6vw;
+    max-width: 5.2vw;
+    height: auto;
+}
+
+.logo-div {
+    display: flex;
+    align-items: center;
+    width: 20.83vw;
+    margin-left: 1.04vw;
+}
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    color: #000;
+    margin-right: 26.04vw;
+}
+
+.inside-nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: 5vw;
+}
+
+.inside-nav-div {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    padding: 1.04vw 2.08vw;
+    color: #000;
+    text-align: center;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.inside-nav-div:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.patient {
+    height: 8.33vw;
+    display: flex;
+    align-items: center;
+}
+
+.greeting {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vw;
+    margin-left: 10vw;
+}
+
+.patient-image {
+    height: 8.33vw;
+    margin-left: 40vw;
+}
+
+.patient-image img {
+    margin-left: 2.6vw;
+    max-width: 8.33vw;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+}
+
+.input-container input {
+    width: 15vw;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+}
+
+.textarea-container textarea {
+    width: 30.7vw;
+    height: 10vh;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+}
+
+.upload-and-submit {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.upload {
+    margin-right: 2.5vw;
+    background-color: #4CAF50;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 5vh;
+    border-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+}
+
+.submit {
+    margin-left: 2.5vw;
+    background-color: #03A9F4;
+    color: white;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 5vh;
+    border-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+}
+
+.table {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+}
+
+.table td {
+    text-align: center;
+    height: 15vh;
+}
+
+
+.hidden-header {
+    visibility: hidden;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.header-row th {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px;
+}
+
+tbody tr {
+    border: 1px solid white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+}
+
+td {
+    padding: 8px;
+}
+
+.reconsult-button {
+    width: 10vw;
+    height: 5vh;
+    background-color: #03A9F4;
+    border-radius: 5vh;
+    border-color: white;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2vw;
+}
+
+.doctor-image {
+    max-height: 15vh;
+}
